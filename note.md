@@ -95,6 +95,13 @@
     3 Functional programming
 
 ### 090 The Javascript Engine and RunTime
+#### js Engine: 执行js代码的计算机程序（V8），引擎组件以及如何工作？一个调用栈（call stack）和一个堆（memory heap）
+#### Compilation & Interpretation、Just in Time、JsRuntime（browser/nodeJs）
+
+### Execution Contexts and The Call Stack
+#### js代码是如何执行的? Execution Context Detail 、Call Stack
+
+### Scope and The Scope Chain
 
 
 ## Data Structures, Modern Operators and Strings
