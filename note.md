@@ -37,6 +37,7 @@
 
 ### JavaScript Releases_ ES5, ES6+ and ESNext
 
+
 ## Fundamentals-Part-2
 
 ### Activating Strict Mode(激活严格模式)
@@ -46,5 +47,63 @@
 ####  calling / running / invoking function
 
 ### Function Declarations vs. Expressions(函数声明式与函数表达式)
+
+### Arrow Functions
+
+### Functions Calling Other Functions
+
+### Introduction to Arrays
+
+### Basic Array Operations(Methods)
+
+### Introduction to Objects
+
+### Dot VS. Bracket Notation
+
+### Objects Methods
+#### this指向调用该方法的对象
+
+### Iteration_ The for Loop
+
+### Looping Arrays, Breaking and continuing
+#### continue break
+
+### Looping Backwards and Loops in Loops
+
+### The while Loop
+#### Math.trunc 将数字的小数部分去掉，只保留整数部分。
+
+
+## Developer Skills & Editor Setup
+
+
+## HTML & CSS Crash Course
+
+
+## JavaScript in the Browser. Dom Manipulation Fundamentals
+
+
+## How JavaScript Works Behind the Scenes
+
+### An High-Level OverView of Javascript
+
+#### javascript is a high-level, prototype-based object-oriented, multi-paradigm, interpreted or just-in-time compiled, dynamic, single-threader, garbage-collected programming language with first-class functions and a non-blocking event loop concurrency model
+
+#### paradigm(范式): an approach and mindset of structuring code, which will direct your coding style and technique
+    1 procedural programming
+    2 Object-oriented programming
+    3 Functional programming
+
+### 090 The Javascript Engine and RunTime
+
+
+## Data Structures, Modern Operators and Strings
+
+
+## A Closer Look at Functions
+
+
+## Working With Arrays
+
 
 
