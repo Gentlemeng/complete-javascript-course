@@ -139,6 +139,8 @@
 
 ### The this keyword in Practice
 
+### Regular Functions vs Arrow Functions
+
 ## Data Structures, Modern Operators and Strings
 
 
