@@ -96,13 +96,48 @@
 
 ### 090 The Javascript Engine and RunTime
 #### js Engine: 执行js代码的计算机程序（V8），引擎组件以及如何工作？一个调用栈（call stack）和一个堆（memory heap）
-#### Compilation & Interpretation、Just in Time、JsRuntime（browser/nodeJs）
+#### Compilation: Entire code is converted into machine code at once, and writted to a binary file that can be executed by a computer
+#### Interpretation: Interpreter runs through the source code and executes it line by line
+#### Just in Time(JIT) compilation: Entire code is converted into machine code at onece, then execution immediately
 
 ### Execution Contexts and The Call Stack
-#### js代码是如何执行的? Execution Context Detail 、Call Stack
+#### js代码是如何执行的? 
+#### Execution Context Detail: (Generated during "creation phase", right before execution)
+    1. Variable Environment
+        let const var
+        Functions
+        arguments Object (not in arrow functions)
+
+    2. scope chain
+
+    3. this keywords (not in arrow functions)
+
+
+#### Call Stack: "Place" where execution context get stacked on top of each other, to keep track where we are in the execution
 
 ### Scope and The Scope Chain
+#### 相关概念，为什么如此重要，如何工作
+1. Scoping: How our program's variables are organized and accessed. "Where do variables live?" or "Where can we access a certain variable, and where not?"(我们程序的变量是如何组织和访问的。 “变量存在于哪里？” 或“我们在哪里可以访问某个变量，在哪里不能访问？”)
 
+2. Lexical Scoping: Socping is controlled by placement of functions and blocks in the code;(socping由代码中的函数和块的位置控制)
+
+3. Scope: Space or environment in which a certain variable is declared(variable environment in case of functions). There is global scope, function scope, and block scope;(声明某个变量的空间或环境（如果是函数，则为变量环境）。 有全局作用域、函数作用域和块作用域；)
+
+4. Scope of variable: Region of our code where a certain variable can be accessed.(可以访问某个变量的代码区域。)
+#### block scope(let const)、function scope(var)
+
+### Scoping in Practice
+
+### Variable Environment_ Hoisting and The TDZ(变量声明提升)
+
+### Hoisting and TDZ(temporal dead zone) in Practice
+#### why TDZ? Makes it easier to avoid and catch errors: accessing variables before declaration is bad practice and should be avoided
+
+### Hoisting and TDZ in Practice
+
+### The this Keyword
+
+### The this keyword in Practice
 
 ## Data Structures, Modern Operators and Strings
 
