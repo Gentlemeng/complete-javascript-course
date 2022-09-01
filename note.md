@@ -145,9 +145,15 @@
 
 
 ## A Closer Look at Functions
+### Closure
+#### A closure is the closed-over variable environment of the execution context in which a function was created, even after that execution context is gone(闭包是创建函数的执行上下文的封闭变量环境，即使在该执行上下文消失后也是如此)
+#### 闭包使得一个函数可以永远保持对创建它时的作用域中的变量访问，即使该执行上下文已经在调用栈中返回
 
 
 ## Working With Arrays
+### at reduce entries flat flatMap
+
+## OOP
 
 
 
