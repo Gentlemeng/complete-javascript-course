@@ -154,6 +154,22 @@
 ### at reduce entries flat flatMap
 
 ## OOP
+#### getter setter, 设置一个已存在的属性时，需约定个额外变量（下滑线开头）替换
+
+#### Object.created(): 创建一个对象，且对象的__proto__为传入的参数
+
+#### instanceof 运算符用于检测构造函数的 prototype 属性是否出现在某个实例对象的原型链上。
+
+#### Inheritance Between "Classes"
+    1. Constructor Functions: 子类中父类.call(this) + Object.create
+    2. ES6 Classes: extends + super() // 最常用
+    3. Object.create: 子对象.init中父对象.init.call(this) + Object.create
+
+#### 数据封装 数据隐私：防止代码/类内的数据从类外意外错误操作
+    1. 公共属性(public fields) class内，constructor外定义
+    2. 私有属性(private fields) #（井号/哈希开头）提案中...
+    3. 公共方法(public methods/interface)
+    4. 私有方法(private methods) #（井号/哈希开头）提案中...(chrome会当成私有属性处理)
 
 
 
