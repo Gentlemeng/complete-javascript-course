@@ -171,5 +171,7 @@
     3. 公共方法(public methods/interface)
     4. 私有方法(private methods) #（井号/哈希开头）提案中...(chrome会当成私有属性处理)
 
+## Asynchronous
+
 
 
