@@ -172,6 +172,31 @@
     4. 私有方法(private methods) #（井号/哈希开头）提案中...(chrome会当成私有属性处理)
 
 ## Asynchronous
+#### 
+``` js
+const res = await fetch('***')
+await res.json()
+```
+#### 永远不要忘记正确使用try catch，尤其是在处理异步逻辑的时候
+``` js
+// bad
+whereAmI()
+  .then(city => console.log(`2: ${city}`))
+  .catch(err => console.error(`2: ${err.message} 💥`))
+  .finally(() => console.log('3: Finished getting location'));
+
+// good IIFE
+(async function() {
+  try {
+    const city = await whereAmI()
+    console.log(`2: ${city}`)
+  } catch (err) {
+    console.error(`2: ${err.message} 💥`)
+  }
+  console.log(`3: Finished getting location`)
+})()
+```
+
 
 
 
