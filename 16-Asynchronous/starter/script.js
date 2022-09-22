@@ -183,6 +183,42 @@ const whereAmI = async function () {
   console.log('3: Finished getting location');
 })();
 */
+/*
+async function async1 () {
+  try {
+    if (Math.random() > 0.5) {
+      return 'win'
+    } else {
+      throw new Error('fail')
+    }
+  } catch (err) {
+    console.error(err.message)
+    throw err
+    // return Promise.reject(err)
+  } finally {
+    console.log('123')
+  }
+}
+// async1()
+//   .then(res => {
+//     console.log(`executed success result: ${res}`)
+//   })
+//   .catch(err => {
+//     console.error(`executed fail err: ${err}`)
+//   }).finally(() => {
+//     console.log('finished')
+//   })
+(async function() {
+  try {
+    const res = await async1()
+    console.log(`executed success result: ${res}`)
+  } catch (err) {
+    console.error(`executed fail err: ${err}`)
+  }
+  console.log('finished')
+})()
+*/
+
 
 // allSettled all
 /*

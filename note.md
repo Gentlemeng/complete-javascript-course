@@ -177,7 +177,12 @@
 const res = await fetch('***')
 await res.json()
 ```
-#### 永远不要忘记正确使用try catch，尤其是在处理异步逻辑的时候
+#### Error Handing With try...catch
+ 永远不要忘记正确使用try catch，尤其是在处理异步逻辑的时候(throw new Error())
+
+#### Returning Values from Async Functions
+
+
 ``` js
 // bad
 whereAmI()
