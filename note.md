@@ -202,6 +202,11 @@ whereAmI()
 })()
 ```
 
+## ES6 Modules
+
+### 异步函数返回promise
+### top level await (es2022)：不用搭配async，就可以使用await，仅可在es模块文件中使用
+
 
 
 
