@@ -207,6 +207,22 @@ whereAmI()
 ### 异步函数返回promise
 ### top level await (es2022)：不用搭配async，就可以使用await，仅可在es模块文件中使用
 
+### The Module Pattern（IIFE）
+#### 无法像es6 modules一样，一个文件创建一个模块，不得不创建不同的js文件，并全部链接到HTML文件中，这样就会有变量名冲突的问题，且无法捆绑一起（bundler） 
+
+### CommonJS Modules（NodeJS）
+
+### Introduction to NPM
+
+### Bundling With Parcel and NPM Scripts
+
+### Configuring Babel and Polyfilling
+
+### Review_ Writing Clean and Modern JavaScript
+
+# Declarative and Functional JavaScript
+ 
+
 
 
 
