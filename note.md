@@ -220,9 +220,16 @@ whereAmI()
 
 ### Review_ Writing Clean and Modern JavaScript
 
-# Declarative and Functional JavaScript
+### Declarative and Functional JavaScript
+#### 两种编程范式
+##### imperative 命令式编程，关注如何实现目标（how to do），step by step
+##### declarative 声明式编程，关注描述目标（what do do），不关心如何实现。filter、map、reduce
+
+#### 函数式编程（Functional Programming）：
+##### 1、Declarative programming paradigm 属于声明式编程的一种
+##### 2、Base on the idea of writing software by combining many **pure functions**, avoid **side effect** and **mutating** data
+
+#### Side effect： mutation of any data **outside** of the function
+#### Pure function： a function without side effect, Does not depend on external variables, **Given the same inputs, alaway returns the same outputs**.
+### Immutability: State(data) is nerver modified! Instead, state is copied and the copy is mutated and returned
  
-
-
-
-
