@@ -231,5 +231,10 @@ whereAmI()
 
 #### Side effect： mutation of any data **outside** of the function
 #### Pure function： a function without side effect, Does not depend on external variables, **Given the same inputs, alaway returns the same outputs**.
-### Immutability: State(data) is nerver modified! Instead, state is copied and the copy is mutated and returned
+#### Immutability: State(data) is nerver modified! Instead, state is copied and the copy is mutated and returned
+
+### The MVC Architecture
+#### model：business logic
+#### controller：application logic （bridge between model and view）
+#### view：dom render
  
